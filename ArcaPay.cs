@@ -22,7 +22,7 @@ namespace Oxide.Plugins
             public string Token { get; set; } = "SEU_TOKEN_AQUI";
 
             [JsonProperty("API URL")]
-            public string ApiUrl { get; set; } = "https://arcapay.org/api/v1/fivem";
+            public string ApiUrl { get; set; } = "https://arcapay.org/api/v1";
 
             [JsonProperty("Poll Interval (seconds)")]
             public int PollInterval { get; set; } = 10;
